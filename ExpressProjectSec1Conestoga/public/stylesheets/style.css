@@ -1,0 +1,50 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto; 
+  background-image: url("/images/background1.jpg!d");
+  background-repeat: round;  
+  
+}
+html {
+  box-sizing: border-box;
+}
+.about {
+  padding: 150px;
+  text-align: center;
+}
+.image{
+  float: left;
+  padding: 10px 20px 20px 10px;
+}
+#content{
+  font:normal  ;
+}
+p{
+  color: black;
+}
+
+#projectimage{
+  float: left;
+  padding: 0px 30px 30px 0px;
+}
+input[type=text], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background-color:lightcyan;
+}
+
+input[type=submit] {
+  background-color:lightgreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+#contact{
+  color: black;
+}
